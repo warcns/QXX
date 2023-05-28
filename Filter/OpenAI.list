@@ -1,3 +1,4 @@
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
+HOST-SUFFIX,stripe.com,OpenAI
