@@ -1,5 +1,8 @@
+HOST-KEYWORD,openai,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,challenges.cloudflare.com,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,stripe.com,OpenAI
 HOST-SUFFIX,o33249.ingest.sentry.io,OpenAI
+HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
+HOST-SUFFIX,stripe.com,OpenAI
