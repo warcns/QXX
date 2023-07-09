@@ -7,10 +7,22 @@
 #HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
 
 # > ChatGPT
+HOST-KEYWORD,openai,OpenAI
 HOST-SUFFIX,ai.com,OpenAI
 HOST-SUFFIX,openai.com,OpenAI
 HOST-SUFFIX,stripe.com,OpenAI
 HOST-SUFFIX,o33249.ingest.sentry.io,OpenAI
+
+HOST-SUFFIX,auth0.com,OpenAI
+#HOST-SUFFIX,challenges.cloudflare.com,OpenAI
+HOST-SUFFIX,client-api.arkoselabs.com,OpenAI
+HOST-SUFFIX,events.statsigapi.net,OpenAI
+HOST-SUFFIX,featuregates.org,OpenAI
+HOST-SUFFIX,identrust.com,OpenAI
+HOST-SUFFIX,intercom.io,OpenAI
+HOST-SUFFIX,intercomcdn.com,OpenAI
+
+HOST-SUFFIX,openaiapi-site.azureedge.net,OpenAI
 
 # > CDN & API
 HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
