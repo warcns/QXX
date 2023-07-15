@@ -1,0 +1,13 @@
+#!name=Bear
+#!desc=Bear
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1012.png
+
+[Script]
+
+http-response https://pro-status-service-prod.azurewebsites.net/api/item script-path=https://raw.githubusercontent.com/warcns/QXX/master/Script/sb.js, requires-body=true, timeout=60 ,tag=RNI
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/warcns/QXX/master/Script/bear.js, requires-body=true, timeout=60 ,tag=Bear
+
+[MITM]
+
+hostname = buy.itunes.apple.com
