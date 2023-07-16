@@ -1,6 +1,6 @@
 #!name=iTunes解锁系列
-#!desc=iTunes解锁系列
-#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1012.png
+#!desc=iTunes解锁系列,使用完毕后需要关闭
+#!icon=https://raw.githubusercontent.com/warcns/QXX/master/Icons/itunes.png
 
 [Script]
 http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js, requires-body=true, tag=iTunes解锁系列
