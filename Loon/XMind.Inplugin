@@ -1,11 +1,12 @@
 #!name=Xmind思维导图
-#!desc=解锁Xmind思维导图订阅到2030年
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/xmind.png
+#!desc=解锁Xmind思维导图最新版
+#!author = chxm1023
+#!homepage = https://github.com/chxm1023/Rewrite
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Xmind.png
 
 [Script]
 
 http-response ^https?:\/\/www\.xmind\.(cn|app)\/.+\/devices script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js, requires-body=true, timeout=60 ,tag=Xmind
 
 [MITM]
-
 hostname = www.xmind.*
