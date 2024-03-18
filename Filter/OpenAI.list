@@ -32,3 +32,5 @@ HOST,production-openaicom-storage.azureedge.net,OpenAI
 HOST-SUFFIX,oaistatic.com,OpenAI
 HOST-SUFFIX,oaiusercontent.com,OpenAI
 
+HOST-SUFFIX,intercom.io,OpenAI
+HOST-SUFFIX,chatgpt.com,OpenAI
