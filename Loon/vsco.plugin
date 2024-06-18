@@ -1,1 +1,20 @@
-﻿#!name=VSCO#!desc=vsco解锁#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/vsco.png#!homepage=https://github.com/chxm1023/Script_X#!author=chxm1023[Script]http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/vsco.js, requires-body=true, timeout=60, tag=vscohttp-request ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js, requires-body=false, tag=Reheji[MITM]hostname = api.revenuecat.com
+﻿#!name=VSCO
+
+
+#!desc=vsco解锁
+
+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/vsco.png
+
+
+#!homepage=https://github.com/chxm1023/Script_X
+
+
+#!author=chxm1023
+
+
+[Script]
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/vsco.js, requires-body=true, timeout=60, tag=vsco
+
+[MITM]
+hostname = api.revenuecat.com
