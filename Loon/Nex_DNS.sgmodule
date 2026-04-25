@@ -1,0 +1,7 @@
+#!name=Nexitally DNS
+#!desc=Nexitally DNS
+
+[Host]
+*.sbs = server:https://wrecking7857.com:44443/dns-query/9cfa6b1b-471e-4bc7-9693-9724e1283c18
+*.sbs = server:https://carrousel6917.com:44443/dns-query/9cfa6b1b-471e-4bc7-9693-9724e1283c18
+*.sbs = server:https://simmering3378.com:443/dns-query/9cfa6b1b-471e-4bc7-9693-9724e1283c18
