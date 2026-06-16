@@ -1,0 +1,14 @@
+#!name=美颜相机
+#!desc=美颜相机紫钻
+#!icon=https://raw.githubusercontent.com/warcns/QXX/master/Icons/myxj.png
+
+[Script]
+
+# > 美颜相机(2022.01.15)
+http-response ^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js, requires-body=true, timeout=60 ,tag=美颜相机_1
+
+http-response ^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiYanXiangJi.js, requires-body=true, timeout=60 ,tag=美颜相机_2
+
+[MITM]
+
+hostname = api.account.meitu.com,api.meiyan.com

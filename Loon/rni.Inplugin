@@ -1,0 +1,11 @@
+#!name=RNI
+#!desc=RNI
+#!icon=https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/bf/45/f5/bf45f5c3-1ab5-e750-6e70-0f8c9d78d44a/AppIcon-1x_U007emarketing-0-7-0-85-220.png/460x0w.webp
+
+[Script]
+
+http-response https://pro-status-service-prod.azurewebsites.net/api/item script-path=https://raw.githubusercontent.com/warcns/QXX/master/Script/sb.js, requires-body=true, timeout=60 ,tag=RNI
+
+[MITM]
+
+hostname = pro-status-service-prod.azurewebsites.net
